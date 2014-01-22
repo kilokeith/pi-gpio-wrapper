@@ -1,27 +1,41 @@
 {
-   "name":"pi-gpio-wrapper",
-   "description":"Pin class wrapper around pi-gpio with events and promises.",
-   "version":"0.0.1",
-   "homepage":"https://github.com/kilokeith/pi-gpio-wrapper",
-   "repository":"git@github.com:kilokeith/pi-gpio-wrapper.git",
-   "author":"Keith Hoffmann <keith@theuprisingcreative.com> (http://theuprisingcreative.com/)",
-   "main":"./index.js",
-   
-   "dependencies":{
-      "coffee-script": "*",
-      "pi-gpio": "latest",
-      "lodash": "latest",
-      "q": "latest"
-   },
-   "devDependencies":{
-   },
-   "engines":{
-      "node":">= 0.10.0"
-   },
-   "licenses":[
-      {
-         "type":"MIT",
-         "url":"https://github.com/kilokeith/pi-gpio-wrapper/blob/master/LICENSE"
-      }
-   ]
+  "name": "pi-gpio-wrapper",
+  "description": "Pin class wrapper around pi-gpio with events and promises.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/kilokeith/pi-gpio-wrapper",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kilokeith/pi-gpio-wrapper.git"
+  },
+  "author": "Keith Hoffmann <keith@theuprisingcreative.com> (http://theuprisingcreative.com/)",
+  "main": "./index.js",
+  "dependencies": {
+    "coffee-script": "*",
+    "pi-gpio": "latest",
+    "lodash": "latest",
+    "q": "latest"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/kilokeith/pi-gpio-wrapper/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/kilokeith/pi-gpio-wrapper/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pi-gpio",
+    "gpio",
+    "raspberry",
+    "pi"
+  ],
+  "license": "MIT"
 }
