@@ -1,0 +1,28 @@
+{
+   "name":"pi-gpio-wrapper",
+   "description":"Pin class wrapper around pi-gpio with events and promises.",
+   "version":"0.0.1",
+   "homepage":"https://bitbucket.org/theuprisingcreative/pi-pin-class/overview",
+   "repository":"git@bitbucket.org:theuprisingcreative/pi-pin-class.git",
+   "author":"Keith Hoffmann <keith@theuprisingcreative.com> (http://theuprisingcreative.com/)",
+   "main":"./index.js",
+   "private": true,
+   
+   "dependencies":{
+      "coffee-script": "*",
+      "pi-gpio": "latest",
+      "lodash": "latest",
+      "q": "latest"
+   },
+   "devDependencies":{
+   },
+   "engines":{
+      "node":">= 0.10.0"
+   },
+   "licenses":[
+      {
+         "type":"MIT",
+         "url":"https://bitbucket.org/theuprisingcreative/pi-pin-class/src/a08378e83bd068d89b8e81bc110942d07473d077/LICENSE?at=master"
+      }
+   ]
+}
